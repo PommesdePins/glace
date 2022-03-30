@@ -1,0 +1,14 @@
+@import "style.css";
+@import "header.css";
+@import "footer.css";
+@import "responsive.css";
+@import "l404.css";
+/*PAGE PRINCIPALE*/
+@import "pageGlace.css";
+
+/*PAGE SHOP*/
+@import "pageShop.css";
+
+/*PAGE PRODUIT*/
+@import "pageProduit.css";
+

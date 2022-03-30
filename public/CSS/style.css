@@ -1,0 +1,29 @@
+*{
+    font-family: 'Poppins', sans-serif;
+
+}
+
+body {
+
+    margin: 0px;
+    font-family: 'Poppins', sans-serif;
+    color: black;
+/*background-image: url("../img/unknown.png");*/
+
+}
+
+a{
+    text-decoration: none!important;
+    color: black!important;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'DM Serif Display', serif;
+}
+
+
+

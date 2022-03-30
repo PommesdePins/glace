@@ -1,0 +1,174 @@
+
+/* 1ST BLOCK */
+.main_first_block {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+
+
+}
+
+.frst_block {
+    background-color: #f6f5f3;
+    width: 70%;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    padding: 50px;
+
+
+}
+
+
+.frst_block_img img {
+
+    width: 100%;
+
+
+}
+
+.frst_block_texte {
+
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    font-size: 13px;
+    padding-top: 50px;
+
+}
+
+.frst_block_bttn {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.322);
+    width: 55px;
+    font-weight: bold;
+}
+
+.frst_block_bttn:hover {
+
+    border-bottom: 1px solid rgb(0, 0, 0);
+    width: 55px;
+
+}
+
+.main_snd_block {
+    display: flex;
+    justify-content: center;
+}
+
+
+/* 2ND BLOCK  */
+.snd_block {
+    margin-top: 20px;
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.snd_block div {
+    background-color: #e6dbd1;
+    text-align: center;
+    width: 30%;
+    padding-top: 30px;
+}
+
+.snd_block h7 {
+
+    border-bottom: 1px solid rgba(0, 0, 0, 0.322);
+    width: auto;
+    font-weight: bold;
+}
+.snd_block h7:hover {
+
+    border-bottom: 1px solid black;
+    width: auto;
+    font-weight: bolder;
+}
+.snd_block p{
+    margin-top: 20px;
+}
+
+.main_prdt_pop {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+/* PRODUIT POPULAIRE */
+.prdt_pop {
+
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+}
+
+.prdt_pop_txt {
+
+    text-align: center;
+    width: 70%;
+
+
+}
+
+.test {
+    display: flex;
+    justify-content: center;
+}
+
+.prdt_pop_artcl img {
+
+    width: 95%;
+}
+
+.prdt_pop_artc {
+    font-size: 13px;
+
+}
+
+.prdt_pop_artcl {
+    display: flex;
+}
+
+/* ABOUT */
+.main_about {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.about {
+    width: 70%;
+    display: flex;
+    align-items: center;
+    background-color: #f6f5f4;
+}
+
+.about_img {
+    width: 45%;
+}
+
+.about_img img {
+    width: 100%;
+}
+
+.about_void {
+    width: 5%;
+}
+
+.about_txt {
+    width: 50%;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    font-size: 13px;
+}
+
+.about_bttn {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.322);
+    width: max-content;
+    font-weight: bold;
+}
+
+.about_bttn:hover {
+    border-bottom: 1px solid rgb(0, 0, 0);
+    width: max-content;
+}

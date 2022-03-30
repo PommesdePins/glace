@@ -1,0 +1,40 @@
+.produit_bloc {
+    /*border: 2px solid red;*/
+    display: flex;
+    justify-content: center !important;
+}
+
+.produit_artcl {
+    /*border: 2px solid green;*/
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 80%;
+
+}
+
+.produit_artc {
+    /*border: 2px solid blue;*/
+    width: 30%;
+}
+
+.produit_artc img {
+    width: 100%;
+    height: auto;
+}
+
+.produit_filter_btn:active {
+    box-shadow: none !important;
+    border-color: transparent !important;
+}
+
+.btn:focus {
+    box-shadow: none !important;
+
+}
+
+.filter_body {
+    /*border: 2px solid blue;*/
+    width: 80%;
+    display: flex;
+}

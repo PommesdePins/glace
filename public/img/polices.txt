@@ -1,0 +1,6 @@
+Les polices :
+Titres :
+https://fonts.google.com/specimen/DM+Serif+Display2
+
+Corps / Paragraphe :
+https://fonts.google.com/specimen/Poppins1

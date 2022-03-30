@@ -1,0 +1,59 @@
+/* HEADER */
+.header {
+
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    background-color: #e6dbd1;
+}
+
+.a {
+    margin: 20px;
+
+
+}
+
+
+/* LOGO */
+.header_image {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+
+}
+
+.header_image img {
+    width: 200px;
+    height: auto;
+}
+
+
+/* MENU */
+.menu {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.z {
+    margin: 10px;
+}
+
+.menu .iconify {
+    height: auto;
+    width: 30px;
+}
+
+
+/* DESCRIPTION */
+.description {
+    display: flex;
+    justify-content: center;
+}
+
+.description_texte {
+    display: flex;
+    width: 540px;
+    text-align: center;
+}

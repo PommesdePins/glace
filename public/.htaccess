@@ -1,0 +1,9 @@
+<IfModule mod_rewrite.c>
+RewriteEngine on
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+#RewriteRule ^glace$ /Glaceexo/public/index.php?p=l404[L,QSA]
+
+RewriteRule ^(.*)$ /glace/public/index.php?p=$1 [L,QSA]
+</IfModule>

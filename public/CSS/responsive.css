@@ -1,0 +1,79 @@
+
+/* RESPONSIVE */
+@media screen and (max-width: 250px) {
+
+    .header .header2,
+    .header .header3 {
+        display: none;
+    }
+
+    .frst_block {
+        display: flex;
+        flex-direction: column;
+        margin-top: 0px;
+        width: 100%;
+        height: 200% ;
+        background-color: red;
+
+    }
+
+    .frst_block_texte {
+        text-align: left;
+        width: 100%;
+        height: 200% ;
+    }
+
+    .main_snd_block {
+        margin-top: 60px;
+    }
+
+    .snd_block {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .snd_block div {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .prdt_pop_artcl {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        height: auto;
+    }
+
+
+
+    .prdt_pop_artc {
+        width: 50%;
+    }
+
+    .about {
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+    }
+
+    .about_img {
+        width: 100%;
+    }
+
+    .about_txt {
+        width: 80%;
+        margin-top: 40px;
+    }
+
+    .footer {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .footer_block {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}
