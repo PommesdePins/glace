@@ -1,6 +1,7 @@
 <?php
 
 use App\Table\Produits;
+var_dump($_SESSION['panier']);
 
 ?>
 <!-- 1ST BLOCK -->
@@ -15,7 +16,7 @@ use App\Table\Produits;
                 the
                 same time. Fill up your freezer with these new bad boys. Their organic, fairtrade and low on sugar.
             </p>
-            <div class="frst_block_bttn">Buy now</div>
+           <a href="shop"> <div class="frst_block_bttn">Buy now</div></a>
         </div>
     </div>
 </div>

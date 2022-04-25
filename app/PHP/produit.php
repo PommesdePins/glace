@@ -1,5 +1,6 @@
 <?php
 $query = new \App\Database("glace");
+$panier = new \App\Table\Panier();
 $res = $query->prepare('SELECT * FROM produits WHERE nom = ?', array(htmlspecialchars($_GET['produit'])), \App\Table\Produits::class, true);
 $categ = $query->prepare('SELECT ca.libelle FROM categorie as ca 
 JOIN categorie_has_produits cp ON ca.id = cp.categorie_id
@@ -14,7 +15,7 @@ WHERE pr.nom = ?', [$_GET['produit']], \App\Table\Produits::class);
             <h1><?= $res->nom ?></h1>
             <p><?= "€" . $res->prix ?></p>
             <p><?= $res->libelle ?></p>
-            <button class="add"> Ajouter au panier</button>
+            <form action="<?php $panier->add($res->id);?>" method="post"><button  class="add" type="submit" name="panierAddId" value="<?= $res->id ?>"> Ajouter au panier</button></form>
 
             <div class="produit_unit_accordion  accordion" id="accordionExample">
                 <div class="accordion-item">

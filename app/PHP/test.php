@@ -3,7 +3,7 @@
 use App\Table\Produits;
 
 $produit = new Produits();
-
+$panier = new \App\Table\Panier();
 //var_dump($produit);
 //for ($i = 1; $i <= 3; $i++) {
 //    $getProduit = $produit->getProduit($i);
@@ -24,16 +24,18 @@ $produit = new Produits();
 //
 //$test=$produit->countElementFilter();
 //echo $test->$key;
-unset($_SESSION);
-$values = ['prix' =>'54€','quantite'=>'4','id'=> '1'];
-$values2 = ['prix' =>'50€','quantite'=>'40','id'=> '12'];
-
-$_SESSION['panier'] = $values;
-$_SESSION['panier2'] = $values2;
-//var_dump($_SESSION['panier']);
-//unset($_SESSION['panier']);
-var_dump($_SESSION['panier']['prix']);
-
-if ($_SESSION['']){
-
-}
+//unset($_SESSION);
+//$values = ['prix' =>'54€','quantite'=>'4','id'=> '1'];
+//$values2 = ['prix' =>'50€','quantite'=>'40','id'=> '12'];
+//
+//$_SESSION['panier'] = $values;
+//$_SESSION['panier2'] = $values2;
+////var_dump($_SESSION['panier']);
+////unset($_SESSION['panier']);
+//var_dump($_SESSION['panier']['prix']);
+//
+//if ($_SESSION['']){
+//
+//}
+$_SESSION['eric']['oswald'] = [1];
+var_dump($_SESSION['eric']['oswald']++);

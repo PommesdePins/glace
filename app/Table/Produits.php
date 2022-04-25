@@ -8,7 +8,7 @@ use App\Database;
 
 class Produits
 {
-    private $query;
+    private Database $query;
 
     /**
      * @var Database

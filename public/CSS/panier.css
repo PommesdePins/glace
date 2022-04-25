@@ -1,0 +1,29 @@
+.panier_bloc{
+    border: 1px solid red;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+
+}
+.panier_bloc table{
+    width: 50%;
+}
+
+.panier_bloc tbody{
+    border: 3px solid green;
+    text-align: center;
+
+}
+.panier_bloc tbody tr{
+    /*border: 1px solid blue;*/
+
+}
+.panier_bloc tbody td{
+     border: 1px solid #e6dbd1;
+    border-collapse: collapse;
+
+ }
+.panier_bloc tbody img{
+    width: 100px;
+    height: auto;
+}

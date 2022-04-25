@@ -2,6 +2,7 @@
 
 require '../app/Autoloader.php';
 //require 'vendor/autoload.php';
+session_start();
 
 \App\Autoloader::register();
 
@@ -9,7 +10,7 @@ include('./../setEnv.php');
 
 $db = new \App\Database('glace');
 
-$tabPage = ["l404","glace","test","shop","produit","panier"];
+$tabPage = ["l404","glace","test","shop","produit","panier","login","register","deconnexion","add"];
 
 
  function exist(array $tableauExiste,string $get,string $defaultGateway){

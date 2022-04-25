@@ -1,9 +1,11 @@
 
 <?php
-session_start();
 require(ROOT_PROJECT. "/public/img/data_source.php");
 $db = new \App\Database('glace');
 $produit = new \App\Table\Produits();
+//if(!isset($_SESSION['panier'])){
+//    $_SESSION['panier']=[];
+//}
 ?>
 
 <!DOCTYPE html>
@@ -24,6 +26,9 @@ $produit = new \App\Table\Produits();
     </linkrel>
     <link rel="stylesheet" href=<?= ROOT_URL . "/CSS/main.css"?> type="text/css" media="all">
     <script src="https://code.iconify.design/2/2.0.4/iconify.min.js"></script>
+
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
